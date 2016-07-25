@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+    <ImageView
+        android:layout_width="match_parent"
+        android:background="@drawable/developer"
+        android:scaleType="centerCrop"
+        android:alpha=".60"
+        android:layout_height="300dp" />
+
+    <TextView
+        android:text="Spanish Word Search"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textColor="@color/primary_material_dark"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="641-451-5123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textSize="16sp"
+        android:textColor="@color/primary_material_dark"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Developed By Sabeen Pradhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="16sp"
+        android:textColor="@color/primary_material_dark"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="54dp" />
+
+    <TextView
+        android:text="sabeen.pradhan@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textSize="16sp"
+        android:textColor="@color/primary_material_dark"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:id="@+id/close"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
